@@ -1160,7 +1160,7 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
   vertical-align: middle;
   position: relative;
   width: 60%;
-  background-color: $transparent;
+  background-color: transparent;
 }
 .progress-outer .progress-inner {
   height: 1px;
@@ -3071,6 +3071,9 @@ header .pull-right .nav_menu2 li a {
 
 /*mac-like dock thumbnail portfolio*/
 .dock {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 16px;
 }
 .dock-pic {
@@ -3125,10 +3128,9 @@ header .pull-right .nav_menu2 li a {
 #dock-container li:hover + li img,
 #dock-container li.prev img {
   -webkit-transform: scale(1.4);
-  margin: 0 1.8em;
+  margin: 0 1.9em;
 }
 #dock-container .fa-play:before {
-  font-family: ;
   content: "\f04b";
 }
 
@@ -3145,6 +3147,18 @@ header .pull-right .nav_menu2 li a {
   -ms-transition: color .3s ease;
   -o-transition: color .3s ease;
   transition: color .3s ease;
+  -webkit-transition: top .4s ease;
+  -moz-transition: top .4s ease;
+  -ms-transition: top .4s ease;
+  -o-transition: top .4s ease;
+  transition: top .4s ease;
+}
+#dock-container li:hover i {
+  top: 9%;
+}
+#dock-container li:hover + li i,
+#dock-container li.prev i {
+  top: 30%;
 }
 
 
@@ -3214,7 +3228,10 @@ header .pull-right .nav_menu2 li {
 header .pull-right .nav_menu2 li a:hover {
   color: #CE5C1F;
 }
-
+header .pull-right .nav_menu2 li a {
+  position: relative;
+  z-index: 2;
+}
 @media (min-width: 1200px) {
   .fullscreen-menu-toggle {
     display: none;
