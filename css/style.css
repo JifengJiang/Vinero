@@ -3306,7 +3306,7 @@ header .pull-right .nav_menu2 li a {
   -webkit-animation: lighting 0s ease-in-out;
   -moz-animation: lighting 0s ease-in-out;
   animation: lighting 0s ease-in-out;
-  animation-delay: 3.2s;
+  animation-delay: 10.2s;
   animation-fill-mode: forwards;
   z-index: 1;
 }
@@ -3332,6 +3332,7 @@ header .pull-right .nav_menu2 li a {
   -webkit-animation: reel 3s ease-in-out;
   -moz-animation: reel 3s ease-in-out;
   animation: reel 3s ease-in-out;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 @-moz-keyframes reel {
