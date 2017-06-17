@@ -353,6 +353,32 @@ $(document).ready(function() {
         jQuery(function(){
             jQuery("a.img1").YouTubePopUp();
         });
+
+        $("a[href='#eventRecording']").click(function() {
+            $("html, body").animate({ scrollTop: 3100 }, "slow");
+            return false;
+        });
+
+        $("a[href='#marketingSolution']").click(function() {
+            $("html, body").animate({ scrollTop: 3800 }, "slow");
+            return false;
+        });
+
+        $("a[href='#visualEffects']").click(function() {
+            $("html, body").animate({ scrollTop: 4500 }, "slow");
+            return false;
+        });
+
+        $("a[href='#cnrtv']").click(function() {
+            $("html, body").animate({ scrollTop: 5210 }, "slow");
+            return false;
+        });
+
+        $("a[href='#contactInfo']").click(function() {
+            $("html, body").animate({ scrollTop: 6000 }, "slow");
+            return false;
+        });
+
     }
    
 
