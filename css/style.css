@@ -4035,3 +4035,66 @@ footer .fa {
 
 
 
+@media (max-width: 320px) {
+  .jumbotron .film-reel {
+    width: 16.6%;
+    top: 22px;
+    left: -100px;
+  }
+
+  @-moz-keyframes reel {
+    100% {
+      -moz-transform: rotate(720deg);
+      left: 59px;
+    }
+  }
+  @-webkit-keyframes reel {
+    100% {
+      -webkit-transform: rotate(720deg);
+      left: 59px;
+    }
+  }
+  @keyframes reel {
+    100% {
+      -webkit-transform: rotate(720deg);
+      transform: rotate(720deg);
+      left: 59px;
+    }
+  }
+  .dock-pic img {
+    left: 4%;
+    margin-top: 7%;
+  }
+  .film-production-title {
+    font-size: 40px;
+  }
+  .jarallax .container {
+    width: 90%;
+  }
+  .events {
+    margin-top: -36px;
+  }
+  .pic-dajiang {
+    width: 330%;
+    margin-top: -130%;
+  }
+  .events .events-row .col-xs-8 {
+    margin: 4em 0 1.6em 0;
+  }
+  .stripe-content2-left .post-header a {
+    font-size: 11px;
+  }
+  .blog-wrap-mas .post-header .post-title {
+    line-height: 13px !important;
+  }
+  .stripe-content2-left .blog-wrap-mas .post-content p {
+    line-height: 11px;
+    font-size: 11px;
+  }
+  .stripe-content2-title h1 {
+    font-size: 37px;
+  }
+  .vfx .vfx-title h1 {
+    font-size: 32px;
+  }
+}
