@@ -2,134 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adff8a9d-812f-40fa-a5c1-1fe1ea2051b3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Events_Recording.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_masonry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_standard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/AST_MMAbr2016_Promotional_Video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/BINJIANG_NO.1_Residence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Changyu_Koyac_Brandy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Daikin_AC_VRV_System.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Estuary_Lily_Real_Estate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Musical_Video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/RemaxPower7_Wing_0804.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Studio_Bathe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/TCM_Plus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Toronto_E-Badminton_Coach_Team.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/WEDDING_CASA_LOMA.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/Yorkville_International_Academy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/capital_international_academy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/film_production/fishing_competition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/events1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/events2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/events3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog/events4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cnrtv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dock/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/events-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/events_recording.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film-production.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film-production1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/film_production/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home0-bak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home0bak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lighting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map_marker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing_solution/marketing_solution-12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qr-android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qr-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/reel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/select_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vfx/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_eqaul_grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_lightbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_lightbox_gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/load_more.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/load_more_equal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/load_more_lightbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/load_more_lightbox_gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yao_film_production.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/1.png" afterPath="$PROJECT_DIR$/img/client/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/2.png" afterPath="$PROJECT_DIR$/img/client/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/3.png" afterPath="$PROJECT_DIR$/img/client/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/4.png" afterPath="$PROJECT_DIR$/img/client/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/5.png" afterPath="$PROJECT_DIR$/img/client/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/client/6.png" afterPath="$PROJECT_DIR$/img/client/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/jumbotron.png" afterPath="$PROJECT_DIR$/img/jumbotron.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/film-production/film-production-demo1.png" afterPath="$PROJECT_DIR$/img/film-production/film-production-demo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/film-production/film-production-demo2.png" afterPath="$PROJECT_DIR$/img/film-production/film-production-demo2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/film-production/film-production-demo3.png" afterPath="$PROJECT_DIR$/img/film-production/film-production-demo3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service.html" afterPath="$PROJECT_DIR$/service.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -150,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+            <state relative-caret-position="75">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -170,18 +48,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62070">
-              <caret line="4138" column="26" lean-forward="false" selection-start-line="4138" selection-start-column="26" selection-end-line="4138" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64530">
-              <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="4400" column="1" lean-forward="true" selection-start-line="4400" selection-start-column="1" selection-end-line="4400" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -190,10 +58,10 @@
       <file leaf-file-name="service.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="134" column="33" lean-forward="false" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+            <state relative-caret-position="169">
+              <caret line="298" column="40" lean-forward="true" selection-start-line="298" selection-start-column="40" selection-end-line="298" selection-end-column="40" />
               <folding>
-                <element signature="e#12306#12312#0" expanded="true" />
+                <element signature="e#12959#12965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,8 +83,10 @@
         <entry file="file://$PROJECT_DIR$/scripts/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1635">
-              <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-              <folding />
+              <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+              <folding>
+                <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,8 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border-radius: .3re</find>
-      <find>border-radius: .3rem</find>
       <find>border-radius: .3rem;</find>
       <find>.jumbotron</find>
       <find>border</find>
@@ -237,7 +105,6 @@
       <find>click</find>
       <find>media-distribution-button</find>
       <find>heading</find>
-      <find>design</find>
       <find>blog</find>
       <find>.film-production</find>
       <find>jumbotron-design</find>
@@ -255,6 +122,9 @@
       <find>container video</find>
       <find>dage2</find>
       <find>video</find>
+      <find>top: 5px;</find>
+      <find>design</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,9 +151,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="34" />
-    <option name="width" value="1058" />
+    <option name="x" value="2" />
+    <option name="y" value="23" />
+    <option name="width" value="1278" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectView">
@@ -410,14 +280,16 @@
       <workItem from="1499301849897" duration="85000" />
       <workItem from="1499350840536" duration="10534000" />
       <workItem from="1499387862958" duration="110000" />
+      <workItem from="1499438501664" duration="1535000" />
+      <workItem from="1499446676928" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58900000" />
+    <option name="totallyTimeSpent" value="61033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="34" width="1058" height="741" extended-state="0" />
+    <frame x="2" y="23" width="1278" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2626539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,6 +341,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66330">
+          <caret line="4422" column="13" lean-forward="false" selection-start-line="4422" selection-start-column="13" selection-end-line="4422" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="207" column="54" lean-forward="false" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+          <folding>
+            <element signature="e#12959#12965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="82" lean-forward="false" selection-start-line="115" selection-start-column="82" selection-end-line="115" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62070">
           <caret line="4138" column="26" lean-forward="false" selection-start-line="4138" selection-start-column="26" selection-end-line="4138" selection-end-column="26" />
           <folding />
@@ -479,7 +395,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64530">
           <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="33" lean-forward="false" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+          <folding>
+            <element signature="e#12959#12965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="82" lean-forward="false" selection-start-line="115" selection-start-column="82" selection-end-line="115" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62070">
+          <caret line="4138" column="26" lean-forward="false" selection-start-line="4138" selection-start-column="26" selection-end-line="4138" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64530">
+          <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -488,7 +464,7 @@
         <state relative-caret-position="2010">
           <caret line="134" column="33" lean-forward="true" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
           <folding>
-            <element signature="e#12306#12312#0" expanded="true" />
+            <element signature="e#12959#12965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,7 +483,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64530">
           <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +517,7 @@
         <state relative-caret-position="2055">
           <caret line="137" column="30" lean-forward="false" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
           <folding>
-            <element signature="e#12306#12312#0" expanded="true" />
+            <element signature="e#12959#12965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,7 +536,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="105" column="7" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +570,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +596,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,14 +686,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servicekab.html" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64530">
-          <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
@@ -729,36 +704,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/jquery.js">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62070">
-          <caret line="4138" column="26" lean-forward="false" selection-start-line="4138" selection-start-column="26" selection-end-line="4138" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="4302" column="1" lean-forward="false" selection-start-line="4302" selection-start-column="1" selection-end-line="4302" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+          <folding>
+            <marker date="1499435413000" expanded="true" signature="2887:3199" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="4400" column="1" lean-forward="true" selection-start-line="4400" selection-start-column="1" selection-end-line="4400" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="134" column="33" lean-forward="false" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+        <state relative-caret-position="169">
+          <caret line="298" column="40" lean-forward="true" selection-start-line="298" selection-start-column="40" selection-end-line="298" selection-end-column="40" />
           <folding>
-            <element signature="e#12306#12312#0" expanded="true" />
+            <element signature="e#12959#12965#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4121,11 +4121,8 @@ header .pull-right .nav_menu2 li a:hover {
   opacity: .5;
   transition: opacity .3s;
 }
-.jumbotron .video:hover:before {
+.jumbotron-video:hover > .video:before {
   opacity: .8;
-}
-.jumbotron-video:hover > .video-button {
-  opacity: 1;
 }
 .video-button {
   position: absolute;
@@ -4137,6 +4134,9 @@ header .pull-right .nav_menu2 li a:hover {
   margin-left: -34px;
   opacity: .5;
   transition: opacity .3s;
+}
+.jumbotron-video:hover > .video-button {
+  opacity: 1;
 }
 .video-button a {
   display: block;
@@ -4366,7 +4366,7 @@ header .pull-right .nav_menu2 li a:hover {
 }
 .film-production-demos > div > div .film-production-title {
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 14px;
 }
 .film-production-demos > div .film-production-title h5 {
@@ -4399,6 +4399,9 @@ header .pull-right .nav_menu2 li a:hover {
 .film-production-demos > div > div:hover:before {
   opacity: .7;
 }
+.film-production-demos > div > div a img {
+  width: 100%;
+}
 .design {
   margin: 0 auto;
   width: 80%;
@@ -4411,17 +4414,16 @@ header .pull-right .nav_menu2 li a:hover {
 .design > div:last-child {
   border: none;
 }
-.design > div > div {
-  position: relative;
-}
 .design > div > div .design-title {
   position: absolute;
-  top: 5px;
-  left: 14px;
+  top: 50%;
+  text-align: center;
+  margin-top: -28px;
+  width: 100%;
 }
 .design > div .design-title h5 {
   font-weight: 600;
-  color: #888;
+  color: #333;
   line-height: 23px;
   transition: color .5s;
 }
@@ -4445,7 +4447,7 @@ header .pull-right .nav_menu2 li a:hover {
 .jumbotron-design {
   margin: 0;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0,.2), rgba(0, 0, 0, 0));
-  padding: 190px 0 0 0;
+  padding: 310px 0 0 0;
   height: auto;
 }
 .jumbotron-design .design {
@@ -4453,13 +4455,13 @@ header .pull-right .nav_menu2 li a:hover {
   margin-top: 5%;
 }
 .jumbotron-media-distribution {
-  height: 35vh;
+  height: 66vh;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(255, 255, 255, 1));
 }
 .jumbotron-media-distribution .heading {
-  padding-top: 8%;
+  padding-top: 25%;
 }
 .jumbotron-media-distribution .heading .logo {
   color: #333;
