@@ -4076,6 +4076,9 @@ header .pull-right .nav_menu2 li a:hover {
 }
 .home-jumbotron {
   background-image: url(../img/bg1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .jumbotron .row {
   display: table;
@@ -4339,9 +4342,12 @@ header .pull-right .nav_menu2 li a:hover {
   text-align: left;
   position: absolute;
   top: 50%;
-  right: 16%;
-  width: 93%;
-  margin-top: -54px;
+  right: 30%;
+  width: 100%;
+  margin-top: -74px;
+  background-color: #fff;
+  padding: 30px 50px;
+  box-shadow: 10px 10px 70px #ddd;
 }
 .choose-customer-text p {
   color: #000;
@@ -4349,8 +4355,12 @@ header .pull-right .nav_menu2 li a:hover {
   position: absolute;
   top: 50%;
   left: 16%;
-  width: 93%;
+  width: 100%;
   margin-top: -54px;
+  background-color: #fff;
+  padding: 30px 50px;
+  box-shadow: -10px 10px 70px #ddd;
+  z-index: 2;
 }
 
 
@@ -4366,7 +4376,11 @@ header .pull-right .nav_menu2 li a:hover {
 
 /*service*/
 .service {
+  background-image: url(../img/bg9.png);
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .service .heading {
   position: absolute;
@@ -4487,9 +4501,17 @@ header .pull-right .nav_menu2 li a:hover {
 }
 .jumbotron-design {
   margin: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0,.2), rgba(0, 0, 0, 0));
+  background-color: #fff;
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0,.2), rgba(0, 0, 0, 0));*/
+  background-image: url(../img/bg8.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 310px 0 0 0;
   height: auto;
+}
+.jumbotron-design .heading .logo {
+  color: #333;
 }
 .jumbotron-design .design {
   width: 100%;
@@ -4499,7 +4521,12 @@ header .pull-right .nav_menu2 li a:hover {
   height: 66vh;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(255, 255, 255, 1));
+  background-color: #fff;
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(255, 255, 255, 1));*/
+  background-image: url(../img/bg8.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .jumbotron-media-distribution .heading {
   padding-top: 25%;
@@ -4509,7 +4536,7 @@ header .pull-right .nav_menu2 li a:hover {
 }
 .media-distribution {
   position: relative;
-  background-image: url("../img/jumbotron.png");
+  background-image: url("../img/bg7.png");
   height: 63vh;
 }
 .media-distribution-button {
