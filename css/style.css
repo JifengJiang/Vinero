@@ -4070,10 +4070,10 @@ header .pull-right .nav_menu2 li a:hover {
 
 /*jumbotron*/
 .jumbotron {
-  background-image: url(../img/jumbotron.png);
+  background-image: url(../img/bg1.png);
   background-size: cover;
   height: 100vh;
-  padding-top: 210px;
+  padding-top: 240px;
 }
 .jumbotron .row {
   display: table;
@@ -4086,65 +4086,95 @@ header .pull-right .nav_menu2 li a:hover {
   float: none;
 }
 .jumbotron .heading .logo {
-  font-size: 100px;
-  color: #333;
+  font-size: 110px;
+  color: #fff;
   letter-spacing: -3px;
+  font-weight: 600;
 }
 .jumbotron .heading .logo span {
-  color: #A40C0C;
+  /*color: #A40C0C;*/
+  font-size: 160px;
 }
 .jumbotron .heading p {
-  color: #000;
-  font-size: 20px;
-  font-weight: 100;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
   margin-left: 4px;
 }
-.jumbotron-video {
-  position: relative;
+/*.jumbotron-video {*/
+  /*position: relative;*/
+/*}*/
+/*.jumbotron .video {*/
+  /*background-color: #000000;*/
+  /*height: 42vh;*/
+  /*width: 74vh;*/
+  /*background-image: url("../img/video.png");*/
+  /*background-size: cover;*/
+  /*position: relative;*/
+/*}*/
+/*.jumbotron .video:before {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*background-color: #000;*/
+  /*opacity: .5;*/
+  /*transition: opacity .3s;*/
+/*}*/
+/*.jumbotron-video:hover > .video:before {*/
+  /*opacity: .8;*/
+/*}*/
+/*.video-button {*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*border: 1px solid #fff;*/
+  /*border-radius: 50px;*/
+  /*margin-top: -34px;*/
+  /*margin-left: -34px;*/
+  /*opacity: .5;*/
+  /*transition: opacity .3s;*/
+/*}*/
+/*.jumbotron-video:hover > .video-button {*/
+  /*opacity: 1;*/
+/*}*/
+/*.video-button a {*/
+  /*display: block;*/
+  /*margin: 20px 17px;*/
+  /*color: #fff;*/
+/*}*/
+.jumbotron .heading .logo {
+  text-align: center;
+  font-size: 110px;
+  color: #fff;
+  letter-spacing: -3px;
+  font-weight: 400;
 }
-.jumbotron .video {
-  background-color: #000000;
-  height: 50vh;
-  width: 89vh;
-  background-image: url("../img/video.png");
-  background-size: cover;
-  position: relative;
+.jumbotron .heading .logo span {
+  font-size: 160px;
+  color: #fff;
+  font-weight: 500;
 }
-.jumbotron .video:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  opacity: .5;
-  transition: opacity .3s;
-}
-.jumbotron-video:hover > .video:before {
-  opacity: .8;
+.jumbotron .heading p {
+  text-align: center;
+  font-size: 25px;
 }
 .video-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  text-align: center;
   border: 1px solid #fff;
-  border-radius: 50px;
-  margin-top: -34px;
-  margin-left: -34px;
-  opacity: .5;
-  transition: opacity .3s;
-}
-.jumbotron-video:hover > .video-button {
-  opacity: 1;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 .video-button a {
-  display: block;
-  margin: 20px 17px;
   color: #fff;
+  font-size: 20px;
+  margin: 5px 0;
+  display: block;
+  width: 100%;
 }
-
-
 
 /*who we are*/
 .about .about-us {
@@ -4341,7 +4371,7 @@ header .pull-right .nav_menu2 li a:hover {
   bottom: 60px;
 }
 .film-production {
-  padding-top: 3%;
+  padding-top: 5.5%;
 }
 .film-production .row {
   margin: 0 auto;
