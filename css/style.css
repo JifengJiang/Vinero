@@ -4070,10 +4070,12 @@ header .pull-right .nav_menu2 li a:hover {
 
 /*jumbotron*/
 .jumbotron {
-  background-image: url(../img/bg1.png);
   background-size: cover;
   height: 100vh;
   padding-top: 240px;
+}
+.home-jumbotron {
+  background-image: url(../img/bg1.png);
 }
 .jumbotron .row {
   display: table;
@@ -4145,19 +4147,19 @@ header .pull-right .nav_menu2 li a:hover {
   /*margin: 20px 17px;*/
   /*color: #fff;*/
 /*}*/
-.jumbotron .heading .logo {
+.home-jumbotron .heading .logo {
   text-align: center;
   font-size: 110px;
   color: #fff;
   letter-spacing: -3px;
   font-weight: 400;
 }
-.jumbotron .heading .logo span {
+.home-jumbotron .heading .logo span {
   font-size: 160px;
   color: #fff;
   font-weight: 500;
 }
-.jumbotron .heading p {
+.home-jumbotron .heading p {
   text-align: center;
   font-size: 25px;
 }
