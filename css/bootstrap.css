@@ -4299,7 +4299,7 @@ a.label:focus, a.label:hover {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #eceeef;
-  border-radius: .3rem;
+  /*border-radius: .3rem;*/
 }
 
 @media (min-width: 544px) {
