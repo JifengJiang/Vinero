@@ -6,7 +6,8 @@
         var offset = startchange.offset();
         $(document).scroll(function() {
             scroll_start = $(this).scrollTop();
-            if(scroll_start > (offset.top + startchange.height()-300)) {
+            // if(scroll_start > (offset.top + startchange.height()-300)) {
+            if(scroll_start > 50) {
                 $('.header-wrap').css('opacity', '.6');
                 $('.header-wrap').css('background-color', '#000000');
             } else {
@@ -15,7 +16,6 @@
             }
         });
     });
-
 
 
 
