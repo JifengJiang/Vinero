@@ -3191,6 +3191,19 @@ header .pull-right .nav_menu2 li a:hover {
 #wrapper {
   height: 87vh;
 }
+#award-back-button {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 0 23px 5px 23px;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 55px;
+  display: none;
+}
 .award-imgs {
   position: absolute;
   width: 50%;
@@ -3261,39 +3274,29 @@ header .pull-right .nav_menu2 li a:hover {
   margin-top: -250px;
   right: 10%;
 }
-#award-back-button {
-  position: absolute;
-  top: 46%;
-  left: 25%;
-  color: #fff;
-  font-size: 40px;
-  font-weight: 100;
-  border: 1px solid #fff;
-  padding: 1px 17px 6px 17px;
-  line-height: 46px;
-  border-radius: 30px;
-  display: none;
-}
 #award-text-experience,
 #award-text-team,
 #award-text-creation,
 #award-text-award {
   display: none;
 }
+.award-text {
+  width: 100%;
+}
 .award-text h4 {
   color: #999;
 }
 .award-text h3 {
   text-align: center;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 100;
   color: #fff;
-  letter-spacing: -8px;
-  line-height: 110px;
+  letter-spacing: -4px;
+  line-height: 90px;
+  margin-bottom: 19px;
 }
 .award-text h5 {
   color: #999;
-  text-align: right;
 }
 #wrapper h1 {
   position: absolute;
@@ -3684,7 +3687,7 @@ footer .fa {
 
 
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .media-distribution-button {
     width: 21%;
   }
@@ -3699,9 +3702,32 @@ footer .fa {
   }
 }
 
+@media (max-width: 1140px) {
+  #wrapper h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 926px) {
+  #wrapper h1 {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .jumbotron .heading .logo {
     font-size: 74px;
+  }
+  .award-titles .award-title {
+    cursor: pointer;
+  }
+  .award-texts {
+    right: auto;
+    left: 20%;
+    width: 60%;
+  }
+  #award-back-button {
+    cursor: pointer;
   }
   .choose-film-text p {
     top: 50%;
@@ -3897,6 +3923,9 @@ footer .fa {
   .home-jumbotron {
     padding-top: 250px;
   }
+  .award-titles .award-title a {
+    font-size: 37px;
+  }
   .choose-film-text p {
     margin-top: -146px;
   }
@@ -3917,6 +3946,9 @@ footer .fa {
 @media (max-width: 320px) {
   .home-jumbotron {
     padding-top: 220px;
+  }
+  .award-titles .award-title a {
+    font-size: 31px;
   }
   .choose-film-text p {
     margin-top: -116px;
