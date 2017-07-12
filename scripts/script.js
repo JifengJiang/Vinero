@@ -363,7 +363,7 @@ jQuery.noConflict()(function ($) {
                 } else {
                     $.ajax({
                         method: 'POST',
-                        url: 'https://formspree.io/jackjiangjifeng@gmail.com',
+                        url: 'https://formspree.io/cangyazi@gmail.com',
                         data: $('#contact-form').serialize(),
                         datatype: 'json'
                     });
