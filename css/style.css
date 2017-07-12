@@ -3643,11 +3643,16 @@ header .pull-right .nav_menu2 li a:hover {
 .blog-content .row {
   margin-bottom: 5%;
 }
+.blog-titles {
+  cursor: pointer;
+}
 
 /*single-blog*/
 .single-blog {
   height: 50vh;
   padding-top: 190px;
+  background-image: url("../img/bg-blog.png");
+  background-size: cover;
 }
 .single-blog-content .row > div {
   width: 80%;
@@ -3965,4 +3970,8 @@ footer .fa {
   .media-distribution-button {
     right: 19%;
   }
+}
+
+#map {
+  height: 100%;
 }
