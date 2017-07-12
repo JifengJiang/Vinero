@@ -132,25 +132,25 @@
         $("#award-experience").click(function() {
             $(".award-titles").stop().hide({}, 100 );
             $("#award-text-experience").stop().show({}, 100 );
-            $("#award-back-button").stop().show({}, 100 );
+            $("#award-back-button").stop().show();
         });
 
         $("#award-team").click(function() {
             $(".award-titles").stop().hide({}, 100 );
             $("#award-text-team").stop().show({}, 100 );
-            $("#award-back-button").stop().show({}, 100 );
+            $("#award-back-button").stop().show();
         });
 
         $("#award-creation").click(function() {
             $(".award-titles").stop().hide({}, 100 );
             $("#award-text-creation").stop().show({}, 100 );
-            $("#award-back-button").stop().show({}, 100 );
+            $("#award-back-button").stop().show();
         });
 
         $("#award-award").click(function() {
             $(".award-titles").stop().hide({}, 100 );
             $("#award-text-award").stop().show({}, 100 );
-            $("#award-back-button").stop().show({}, 100 );
+            $("#award-back-button").stop().show();
         });
 
         $("#award-back-button").click(function() {
@@ -159,7 +159,7 @@
             $("#award-text-team").stop().hide({}, 100 );
             $("#award-text-creation").stop().hide({}, 100 );
             $("#award-text-award").stop().hide({}, 100 );
-            $("#award-back-button").stop().hide({}, 100 );
+            $("#award-back-button").stop().hide();
         });
     }
 
