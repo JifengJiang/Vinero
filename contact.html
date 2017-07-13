@@ -166,7 +166,7 @@
 
 										<div class="col-md-6">
 
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11511.568306715619!2d-79.33518008950195!3d43.83733565189188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4860f8c9581529!2zRydlc3QgTWVkaWHmnbDoibrkvKDlqpI!5e0!3m2!1sen!2sca!4v1499812811882" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11511.568306715619!2d-79.33518008950195!3d43.83733565189188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4860f8c9581529!2zRydlc3QgTWVkaWHmnbDoibrkvKDlqpI!5e0!3m2!1sen!2sca!4v1499812811882" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen>
 
 											</iframe>
 									<!-- End Map -->
@@ -221,12 +221,54 @@
 					</section>
 					<!-- End section -->
 
-				</main>
+					<button id="myBtn" class="scroll-top1 scroll-top scroll-top-hidden"><img src="img/email.png" /></button>
+					<!-- Trigger/Open The Modal -->
 
-				<a href="#top" class="scroll-top scroll-top-hidden">
-					<i class="fa fa-angle-up"></i>
-				</a>
-				<!-- End scroll-top -->
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+						<!-- Modal content -->
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h5>Feel free to contact for more details...</h5>
+							<form
+									class="contact-form"
+									id="contact-form"
+									action="send_email.php"
+									method="post"
+									data-all-fields-required-msg="All fields are required"
+									data-ajax-fail-msg="Ajax could not set the request"
+									data-success-msg="Email successfully sent.">
+								<label>Name:
+									<span>*</span>
+								</label>
+								<input class="contact-form-name" id="emailName" type="text" name="name">
+								<label>Email:
+									<span>*</span>
+								</label>
+								<input class="contact-form-email" id="emailAddress" type="text" name="email">
+								<label>Message:
+									<span>*</span>
+								</label>
+								<textarea cols="30" rows="2" id="emailMessage" class="contact-form-message" name="message"></textarea>
+								<p class="return-msg"></p>
+								<div class="mt40">
+									<button class="btn btn-md btn-black">
+									<span>Submit
+										<i
+												class="fa fa-spin fa-spinner ajax-loader"
+												style="display: none; margin-left: 5px;"></i>
+									</span>
+									</button>
+								</div>
+							</form>
+							<!-- End form -->
+						</div>
+					</div>
+
+					<a href="#top" class="scroll-top2 scroll-top scroll-top-hidden">
+						<i class="fa fa-angle-up"></i>
+					</a>
+					<!-- End scroll-top -->
 
 			</div>
 			<!-- End content -->

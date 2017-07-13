@@ -108,7 +108,7 @@
 				<section class="section blog-content">
 					<div class="row">
 						<div class="col-md-5 col-xs-12">
-							<img class="award-img" id="award-img1" src="img/blog/blog-1-2.png" />
+							<img class="award-img" src="img/blog/blog-1-2.png" />
 						</div>
 						<div class="col-md-7 col-xs-12">
 							<h2 class="blog-titles"><a href="single-blog1.html">How to make decisions on your videos?</a></h2>
@@ -118,7 +118,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-5 col-xs-12">
-							<img class="award-img" id="award-img1" src="img/blog/blog-2-3.png" />
+							<img class="award-img" src="img/blog/blog-2-3.png" />
 						</div>
 						<div class="col-md-7 col-xs-12">
 							<h2 class="blog-titles"><a href="single-blog2.html">What you should know before making a corporation video</a></h2>
@@ -127,7 +127,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-5 col-xs-12">
-							<img class="award-img" id="award-img1" src="img/blog/blog-3-2.png" />
+							<img class="award-img" src="img/blog/blog-3-2.png" />
 						</div>
 						<div class="col-md-7 col-xs-12">
 							<h2 class="blog-titles"><a href="single-blog3.html">What is corporate video and how it can be used?</a></h2>
@@ -136,7 +136,51 @@
 					</div>
 				</section>
 
-				<a href="#top" class="scroll-top scroll-top-hidden">
+				<button id="myBtn" class="scroll-top1 scroll-top scroll-top-hidden"><img src="img/email.png" /></button>
+				<!-- Trigger/Open The Modal -->
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h5>Feel free to contact for more details...</h5>
+						<form
+								class="contact-form"
+								id="contact-form"
+								action="send_email.php"
+								method="post"
+								data-all-fields-required-msg="All fields are required"
+								data-ajax-fail-msg="Ajax could not set the request"
+								data-success-msg="Email successfully sent.">
+							<label>Name:
+								<span>*</span>
+							</label>
+							<input class="contact-form-name" id="emailName" type="text" name="name">
+							<label>Email:
+								<span>*</span>
+							</label>
+							<input class="contact-form-email" id="emailAddress" type="text" name="email">
+							<label>Message:
+								<span>*</span>
+							</label>
+							<textarea cols="30" rows="2" id="emailMessage" class="contact-form-message" name="message"></textarea>
+							<p class="return-msg"></p>
+							<div class="mt40">
+								<button class="btn btn-md btn-black">
+									<span>Submit
+										<i
+												class="fa fa-spin fa-spinner ajax-loader"
+												style="display: none; margin-left: 5px;"></i>
+									</span>
+								</button>
+							</div>
+						</form>
+						<!-- End form -->
+					</div>
+				</div>
+
+				<a href="#top" class="scroll-top2 scroll-top scroll-top-hidden">
 					<i class="fa fa-angle-up"></i>
 				</a>
 				<!-- End scroll-top -->

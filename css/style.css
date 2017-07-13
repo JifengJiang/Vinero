@@ -263,9 +263,7 @@ textarea {
 .page-title {
   padding: 75px;
   text-align: center;
-  /*background-color: rgba(252,252,252,0.93);*/
-  /*dage*/
-  background-color: rgba(252,252,252,0.2);
+  background-color: rgba(252,252,252,0.9);
 }
 .page-title h1 {
   font-size: 31px;
@@ -3092,50 +3090,6 @@ header .pull-right .nav_menu2 li a:hover {
   font-weight: 400;
   margin-left: 4px;
 }
-/*.jumbotron-video {*/
-  /*position: relative;*/
-/*}*/
-/*.jumbotron .video {*/
-  /*background-color: #000000;*/
-  /*height: 42vh;*/
-  /*width: 74vh;*/
-  /*background-image: url("../img/video.png");*/
-  /*background-size: cover;*/
-  /*position: relative;*/
-/*}*/
-/*.jumbotron .video:before {*/
-  /*content: "";*/
-  /*position: absolute;*/
-  /*width: 100%;*/
-  /*height: 100%;*/
-  /*top: 0;*/
-  /*left: 0;*/
-  /*background-color: #000;*/
-  /*opacity: .5;*/
-  /*transition: opacity .3s;*/
-/*}*/
-/*.jumbotron-video:hover > .video:before {*/
-  /*opacity: .8;*/
-/*}*/
-/*.video-button {*/
-  /*position: absolute;*/
-  /*top: 50%;*/
-  /*left: 50%;*/
-  /*border: 1px solid #fff;*/
-  /*border-radius: 50px;*/
-  /*margin-top: -34px;*/
-  /*margin-left: -34px;*/
-  /*opacity: .5;*/
-  /*transition: opacity .3s;*/
-/*}*/
-/*.jumbotron-video:hover > .video-button {*/
-  /*opacity: 1;*/
-/*}*/
-/*.video-button a {*/
-  /*display: block;*/
-  /*margin: 20px 17px;*/
-  /*color: #fff;*/
-/*}*/
 .home-jumbotron .heading .logo {
   text-align: center;
   font-size: 110px;
@@ -3645,6 +3599,8 @@ header .pull-right .nav_menu2 li a:hover {
 }
 .blog-titles {
   cursor: pointer;
+  font-size: 29px;
+  line-height: 35px;
 }
 
 /*single-blog*/
@@ -3654,13 +3610,56 @@ header .pull-right .nav_menu2 li a:hover {
   background-image: url("../img/bg-blog.png");
   background-size: cover;
 }
-.single-blog-content .row > div {
+.single-blog-content .row {
   width: 80%;
-  margin: 20px auto 30px auto;
+  margin: 0 auto;
 }
-.single-blog-content .row > div img {
+.single-blog-content .row .single-blog-title h2 {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 600;
+}
+.single-blog-content .row .single-blog-title hr {
+  border-top: 5px solid rgba(0, 0, 0, .1);
+}
+.at-resp-share-element .at-share-btn .at-label {
+  display: none;
+}
+.single-blog-content h4 {
+  color: #880101;
+  font-weight: 600;
+}
+.single-blog-content h5 {
+  color: #880101;
+  font-style: italic;
+}
+.single-blog-content a {
+  color: #0275d8;
+  font-style: italic;
+  font-size: 18px;
+}
+.single-blog-content .row img {
    width: 100%;
 }
+.single-blog-content .row img.img-half1 {
+  width: 49%;
+  margin-right: .5%;
+}
+.single-blog-content .row img.img-half2 {
+  width: 49%;
+  margin-left: .5%;
+}
+.single-blog-content .row iframe {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+/*contact*/
+iframe {
+  margin-bottom: 20px;
+}
+
 
 /*footer*/
 footer .fa {
@@ -3690,6 +3689,64 @@ footer .fa {
   color: #111;
 }
 
+/*email from pop up model*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+#myBtn {
+  bottom: 80px;
+  border: none;
+  /*opacity: 1;*/
+  /*transform: translateX(0);*/
+  /*position: fixed;*/
+  /*width: 40px;*/
+  /*height: 40px;*/
+  /*text-align: center;*/
+  /*line-height: 40px;*/
+  /*right: 30px;*/
+  /*z-index: 16;*/
+  /*font-size: 13px;*/
+  /*background-color: #222;*/
+  /*color: #fcfcfc;*/
+  /*transition: all 0.4s ease-in-out;*/
+}
+#myBtn img {
+  margin-bottom: 6px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 40%;
+}
+.modal-content h5 {
+  margin-bottom: 30px;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 @media (min-width: 768px) {
@@ -3974,48 +4031,4 @@ footer .fa {
 
 #map {
   height: 100%;
-}
-
-
-
-
-
-
-
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
 }

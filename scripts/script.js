@@ -109,23 +109,34 @@ jQuery.noConflict()(function ($) {
 
         var offset = 300,
             scroll_top_duration = 350,
-            $back_to_top = $('.scroll-top');
-
+            $back_to_top1 = $('.scroll-top1'),
+            $back_to_top2 = $('.scroll-top2');
 
         $(window).on('scroll', function () {
             if ($(this).scrollTop() > offset) {
 
-                $back_to_top.addClass('scroll-top-visible').removeClass('scroll-top-hidden');
+                $back_to_top1.addClass('scroll-top-visible').removeClass('scroll-top-hidden');
 
             } else {
 
-                $back_to_top.addClass('scroll-top-hidden').removeClass('scroll-top-visible');
+                $back_to_top1.addClass('scroll-top-hidden').removeClass('scroll-top-visible');
 
             }
         });
 
+        $(window).on('scroll', function () {
+            if ($(this).scrollTop() > offset) {
 
-        $back_to_top.on('click', function () {
+                $back_to_top2.addClass('scroll-top-visible').removeClass('scroll-top-hidden');
+
+            } else {
+
+                $back_to_top2.addClass('scroll-top-hidden').removeClass('scroll-top-visible');
+
+            }
+        });
+
+        $back_to_top2.on('click', function () {
             $('html, body').animate({
                 scrollTop: 0
             }, scroll_top_duration);
@@ -748,32 +759,6 @@ jQuery.noConflict()(function ($) {
             stickyFooter();
         }
     });
-
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
 
 });
 

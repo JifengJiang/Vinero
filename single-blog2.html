@@ -108,29 +108,27 @@
 
 				<section class="section single-blog-content">
 					<div class="row">
-						<div>
+						<div class="col-sm-3 single-blog-title">
 							<h2>What you should know before making a corporation video</h2>
 							<hr>
 							<!-- Go to www.addthis.com/dashboard to customize your tools -->
-							<div class="addthis_inline_share_toolbox"></div>
-							<br>
-							<p>Before you start a video project, it is better to know as much as you can about the video production process as a client. Great video marketing isn't just about cameras and microphones. It also includes planning, forethought, and a kick-ass strategy.<br>
+							<div class="addthis_inline_share_toolbox" data-url="http://localhost:63342/gestfilm/single-blog1.html" data-title="How to make decisions on your videos?" data-description="How to balance cost, quality and time when making corporate video? Which one is the most important thing to video production? There are some tips on saving budget when making decisions on video production."></div>
+						</div>
+						<div class="col-sm-9 single-blog-content">
+							<p>Before you start a video project, it is better to know as much as you can about the video production process as a client. Great video marketing isn't just about cameras and microphones. It also includes planning, forethought, and a kick-ass strategy.</p>
 
-								In G’est Media, we’d always like our clients to know our steps and have a clear idea of the whole process.<br>
+							<p>In G’est Media, we’d always like our clients to know our steps and have a clear idea of the whole process.</p>
 
-								Normally we have 3 phases to go through. In these three phases, there are totally 8 steps from defining the objectives of the video to sharing and promoting the video.<br>
-							</p>
+							<p>Normally we have 3 phases to go through. In these three phases, there are totally 8 steps from defining the objectives of the video to sharing and promoting the video.</p>
 							<h4>Phase 1: Pre-Production</h4>
-							<p>The pre-production phase is to prepare for the shooting days. In this phrase, we are going to discuss with our clients about what message they want to communicate to the audience, what format is proper, what resources we need, and to work out a breakdown shooting list and shooting schedule to ensure that everything needed for shooting is covered.<br>
-							</p>
+							<p>The pre-production phase is to prepare for the shooting days. In this phrase, we are going to discuss with our clients about what message they want to communicate to the audience, what format is proper, what resources we need, and to work out a breakdown shooting list and shooting schedule to ensure that everything needed for shooting is covered.</p>
 							<img src="img/blog/blog-2-1.png" alt="" />
 							<br>
 							<br>
 							<h5>Step #1: Define the video objective and audience</h5>
-							<p>Defining the video objective is always the most important and most fundamental thing in the whole process, as it decides how we are going to conduct the following steps and what message we are going to convey in the video. The easiest way to define the objective is to know who your audience is. As your product or service won’t appeal to everyone, to know who your audience are and what the objective is helps us to communicate all the right message to right people without wasting money and time.<br>
-							</p>
+							<p>Defining the video objective is always the most important and most fundamental thing in the whole process, as it decides how we are going to conduct the following steps and what message we are going to convey in the video. The easiest way to define the objective is to know who your audience is. As your product or service won’t appeal to everyone, to know who your audience are and what the objective is helps us to communicate all the right message to right people without wasting money and time.</p>
 							<h5>Step #2: Core Message Development</h5>
-							<p>With knowing the objective and audience of the video, it is easy to develop on the core message that you want to communicate. However, you cannot simply put the message you wish to convey as the core message, because what you want to say usually are not totally overlapped with what your customers want to know. And the core message falls into the intersection between what you want to achieve and what your audience wants to know. </p>
+							<p>With knowing the objective and audience of the video, it is easy to develop on the core message that you want to communicate. However, you cannot simply put the message you wish to convey as the core message, because what you want to say usually are not totally overlapped with what your customers want to know. And the core message falls into the intersection between what you want to achieve and what your audience wants to know.</p>
 							<h5>Step #3: Scripting and storyboarding</h5>
 							<p>Based on the core message, we now have a brief concept of the video. We can move on to decide how to tell the story and in which format. For example, interview gives a more direct feeling, narrating sounds more professional, animation and visual effects are more technology-oriented. We can use one format for the whole video or combine several formats as needed. A shooting list will be created to cover all the visual messages to ensure that we won’t miss any information. We might also create a storyboard for the video, if necessary, to give our clients a more clear view of what the video will be.</p>
 							<h5>Step #4: Scheduling and Planning</h5>
@@ -155,16 +153,58 @@
 							<img src="img/blog/blog-2-4.png" alt="" />
 							<br>
 							<br>
-							<p>While, the video is part of company’s marketing strategy. The video would be of no use if you don’t know how to promote it. This may include branding design, marketing research, social media campaign, media distribution, and SEO optimization. In G’est Media, we have professional marketing team that helps you to work out an effective marketing plan to ensure the video receives the maximum amount of exposure from its intended audience.<br>
-
-								That's it! Congratulations for making it through the entire guide. However, this only covers part of the video production processes. In G’est Media, our production team, together with our visual design team and marketing team will make customized schedules and plans for each client based on their specific demands and target audience.<br>
-							</p>
+							<p>While, the video is part of company’s marketing strategy. The video would be of no use if you don’t know how to promote it. This may include branding design, marketing research, social media campaign, media distribution, and SEO optimization. In G’est Media, we have professional marketing team that helps you to work out an effective marketing plan to ensure the video receives the maximum amount of exposure from its intended audience.</p>
+							<p>That's it! Congratulations for making it through the entire guide. However, this only covers part of the video production processes. In G’est Media, our production team, together with our visual design team and marketing team will make customized schedules and plans for each client based on their specific demands and target audience.</p>
 							<p><a href="single-blog1.html">Check here to get more information on how to make your decision on your videos!</a></p>
 						</div>
 					</div>
 				</section>
 
-				<a href="#top" class="scroll-top scroll-top-hidden">
+				<button id="myBtn" class="scroll-top1 scroll-top scroll-top-hidden"><img src="img/email.png" /></button>
+				<!-- Trigger/Open The Modal -->
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h5>Feel free to contact for more details...</h5>
+						<form
+								class="contact-form"
+								id="contact-form"
+								action="send_email.php"
+								method="post"
+								data-all-fields-required-msg="All fields are required"
+								data-ajax-fail-msg="Ajax could not set the request"
+								data-success-msg="Email successfully sent.">
+							<label>Name:
+								<span>*</span>
+							</label>
+							<input class="contact-form-name" id="emailName" type="text" name="name">
+							<label>Email:
+								<span>*</span>
+							</label>
+							<input class="contact-form-email" id="emailAddress" type="text" name="email">
+							<label>Message:
+								<span>*</span>
+							</label>
+							<textarea cols="30" rows="2" id="emailMessage" class="contact-form-message" name="message"></textarea>
+							<p class="return-msg"></p>
+							<div class="mt40">
+								<button class="btn btn-md btn-black">
+									<span>Submit
+										<i
+												class="fa fa-spin fa-spinner ajax-loader"
+												style="display: none; margin-left: 5px;"></i>
+									</span>
+								</button>
+							</div>
+						</form>
+						<!-- End form -->
+					</div>
+				</div>
+
+				<a href="#top" class="scroll-top2 scroll-top scroll-top-hidden">
 					<i class="fa fa-angle-up"></i>
 				</a>
 				<!-- End scroll-top -->

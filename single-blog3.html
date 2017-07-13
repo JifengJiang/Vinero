@@ -108,12 +108,13 @@
 
 				<section class="section single-blog-content">
 					<div class="row">
-						<div>
+						<div class="col-sm-4 single-blog-title">
 							<h2>What is corporate video and how it can be used?</h2>
 							<hr>
 							<!-- Go to www.addthis.com/dashboard to customize your tools -->
-							<div class="addthis_inline_share_toolbox"></div>
-							<br>
+							<div class="addthis_inline_share_toolbox" data-url="http://localhost:63342/gestfilm/single-blog1.html" data-title="How to make decisions on your videos?" data-description="How to balance cost, quality and time when making corporate video? Which one is the most important thing to video production? There are some tips on saving budget when making decisions on video production."></div>
+						</div>
+						<div class="col-sm-8 single-blog-content">
 							<img src="img/blog/blog-3-1.png" alt="" />
 							<br>
 							<br>
@@ -130,8 +131,8 @@
 							<br>
 							<br>
 							<h5>2.	training video</h5>
-							<p>Different with promotion video, audience of training videos are often employees in the company. Training videos are used to educating or upskilling employees or new crews, such as instructions of safety workplace, company policies, code of conduct, or health benefits.
-								Training video has become an extremely popular way of training staff as it is more efficient than company handbooks, and it lowers costs compared to in person training.</p>
+							<p>Different with promotion video, audience of training videos are often employees in the company. Training videos are used to educating or upskilling employees or new crews, such as instructions of safety workplace, company policies, code of conduct, or health benefits.</p>
+							<p>Training video has become an extremely popular way of training staff as it is more efficient than company handbooks, and it lowers costs compared to in person training.</p>
 							<h5>3.	internal communication video</h5>
 							<p>Similar as training video, internal communication videos are created for employees within the company. An internal communication video can be the latest financial results or blueprint of the company, or latest internal changes that are being made at the company. Internal communication videos helps you save the employees time from reading bunches of words from the intranet site or check from piles of company emails. Video can be very effective for internal communications because employees can get more information faster from pictures with sounds compared to text.</p>
 							<h5>4.	conference video and event video</h5>
@@ -139,14 +140,58 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/QjdMc6kz99w" frameborder="0" allowfullscreen></iframe>
 							<br>
 							<br>
-							<h5>5.	1.	Company value videos</h5>
+							<h5>5.	Company value videos</h5>
 							<p>Company value videos are used to build and promote the positive social responsible image to the public. It includes company value videos, company mission videos, and corporate social responsibility (CSR) videos. Businesses, nowadays, have becoming increasingly involved in social initiatives which have a positive impact to society. A company value video can be used to communicate both to internal audiences as training materials and to external customers because it helps company to easily spread out their good actions.</p>
 							<p>New technology of video and online platforms provides customers new ways to consume product, and more ways for business to communicate with both internal and external audiences. Corporate videos are a different way rather than traditional corporate communication, and it is evolving very fast. The past years data shows that social media users such as users on Facebook and Twitter had increasing and lager consumption on video than on text. In G’est Media, we are also working hard to provide the cut-edged filming skills and innovative creations to our customers, as well as developing on even newer technologies such as 360 video and VR (Virtual Reality). We believe that we will help our customer created more business opportunities with our productions.</p>
 						</div>
 					</div>
 				</section>
 
-				<a href="#top" class="scroll-top scroll-top-hidden">
+				<button id="myBtn" class="scroll-top1 scroll-top scroll-top-hidden"><img src="img/email.png" /></button>
+				<!-- Trigger/Open The Modal -->
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h5>Feel free to contact for more details...</h5>
+						<form
+								class="contact-form"
+								id="contact-form"
+								action="send_email.php"
+								method="post"
+								data-all-fields-required-msg="All fields are required"
+								data-ajax-fail-msg="Ajax could not set the request"
+								data-success-msg="Email successfully sent.">
+							<label>Name:
+								<span>*</span>
+							</label>
+							<input class="contact-form-name" id="emailName" type="text" name="name">
+							<label>Email:
+								<span>*</span>
+							</label>
+							<input class="contact-form-email" id="emailAddress" type="text" name="email">
+							<label>Message:
+								<span>*</span>
+							</label>
+							<textarea cols="30" rows="2" id="emailMessage" class="contact-form-message" name="message"></textarea>
+							<p class="return-msg"></p>
+							<div class="mt40">
+								<button class="btn btn-md btn-black">
+									<span>Submit
+										<i
+												class="fa fa-spin fa-spinner ajax-loader"
+												style="display: none; margin-left: 5px;"></i>
+									</span>
+								</button>
+							</div>
+						</form>
+						<!-- End form -->
+					</div>
+				</div>
+
+				<a href="#top" class="scroll-top2 scroll-top scroll-top-hidden">
 					<i class="fa fa-angle-up"></i>
 				</a>
 				<!-- End scroll-top -->
